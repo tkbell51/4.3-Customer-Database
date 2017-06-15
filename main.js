@@ -26,14 +26,14 @@
   peopleSection.appendChild(peopleDiv);
   var peoplePic = document.createElement('img');
   peoplePic.className = 'pic';
-  peoplePic.src = people.picture.medium;
+  peoplePic.src = people.picture.large;
   peopleDiv.appendChild(peoplePic);
   var peopleName = document.createElement('h5');
   peopleName.className = 'name';
   peopleName.textContent = people.name.first + " " + people.name.last;
   peopleDiv.appendChild(peopleName);
   var peopleEmail = document.createElement('h5');
-  peopleEmail.className = 'name';
+  peopleEmail.className = 'email';
   peopleEmail.textContent = people.email;
   peopleDiv.appendChild(peopleEmail);
   var peopleStreet1 = document.createElement('h5');

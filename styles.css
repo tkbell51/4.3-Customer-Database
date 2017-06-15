@@ -2,26 +2,52 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: Helvetica;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 100;
+
 }
 .title{
-  text-align: center;
-  text-transform: uppercase;
+  margin: 50px 0;
+  font-weight: bold;
 }
 .section{
   display: flex;
   flex-flow: row wrap;
+  justify-content: center;
+  padding: 0px 120px;
 }
 .column-lg-3{
   text-align: center;
-  flex: 1 1 20%;
-}
-.blurNum{
-  color: transparent;
-   text-shadow: 0 0 5px rgba(0,0,0,0.5);
+  margin: 20px 10px 40px 10px;
+  flex: 1 1 22%;
 }
 .pic{
   width: 100%;
+  margin-bottom: 8px;
 }
 .name {
-  text-transform: uppercase;
+text-decoration: underline #54B287;
+text-underline-position: under;
+font-weight: bold;
+font-size: 1.2em;
+padding-bottom: 2px;
+margin-bottom: 15px;
+}
+.email{
+  color: #CBCBCB;
+  font-size: 13px;
+  margin-bottom: 25px;
+}
+.street1, .city, .phone{
+font-size: 13px;
+margin-bottom: 5px;
+}
+.blurNum{
+  color: transparent;
+   text-shadow: 0 0 5px #54B287;
+   font-size: .8em;
+   margin-top: 30px;
+
 }
